@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs');
 
 // 1. DATABASE CONNECTION
 // REPLACE THE LINK BELOW WITH YOUR ACTUAL MONGODB LINK
-mongoose.connect('mongodb+srv://ianpro717m_db_user:Ian@2026@cluster0.it5lgsw.mongodb.net/?appName=Cluster0')
+mongoose.connect('mongodb+srv://ianpro717m_db_user:Ian2026@cluster0.it5lgsw.mongodb.net/?appName=Cluster0')
     .then(() => console.log("Database Connected Successfully"))
     .catch(err => console.log("Database Connection Error:", err));
 
