@@ -73,4 +73,7 @@ io.on('connection', (socket) => {
     });
 });
 
+app.get('/', (req, res) => {
+    res.send('The Server is LIVE and ready for data!');
+});
 http.listen(process.env.PORT || 3000, () => console.log("Server Running"));
